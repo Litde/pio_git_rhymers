@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery;
 
-public class defaultCountingOutRhymer {
+public class DefaultRhymer {
 
     private int[] numbers = new int[12];
 
@@ -30,4 +30,5 @@ public class defaultCountingOutRhymer {
             return -1;
         return numbers[total--];
     }
+
 }
