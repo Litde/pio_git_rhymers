@@ -9,7 +9,7 @@ public class DefaultRhymer {
 
     private final int[] numbers = new int[CAPACITY];
 
-    public int total = EMPTY;
+    private int total = EMPTY;
 
     public void countIn(int in) {
         if (!isFull())
@@ -36,4 +36,7 @@ public class DefaultRhymer {
         return numbers[total--];
     }
 
+    public int getTotal() {
+        return total;
+    }
 }
